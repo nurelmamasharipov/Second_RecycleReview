@@ -8,21 +8,21 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 
-public class ContactViewHolder extends RecyclerView.ViewHolder {
-    private ImageView contactImage;
-    private TextView about, title;
+public class MarksViewHolder extends RecyclerView.ViewHolder {
+    private ImageView marksImage;
+    private TextView  title;
 
-    public ContactViewHolder(@NonNull View itemView) {
+    public MarksViewHolder(@NonNull View itemView) {
         super(itemView);
-        contactImage = itemView.findViewById(R.id.img_contact);
-        about = itemView.findViewById(R.id.tv_about);
+        marksImage = itemView.findViewById(R.id.img_contact);
         title = itemView.findViewById(R.id.tv_name);
     }
-    protected void bind (Contacts contacts) {
+    protected void bind (Marks contacts) {
         title.setText(contacts.getName());
-        about.setText(contacts.getAbout());
         Glide.with(itemView.getContext())
                 .load(contacts.getImage())
-                .into(contactImage);
+                .into(marksImage);
     }
 }
+
+
