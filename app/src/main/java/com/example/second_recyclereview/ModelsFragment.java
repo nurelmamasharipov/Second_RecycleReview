@@ -89,7 +89,7 @@ public class ModelsFragment extends Fragment {
     }
     private void loadDataLamborghini() {
         models.add(new Models("https://www.pinterest.com/pin/73605775150112312/", "Venero", "1490 kg", "15.7 l", "3800000$"));
-        models.add(new Models("https://www.pinterest.com/pin/73605775150112312/", "Venero", "1490 kg", "15.7 l", "3800000$"));        models.add(new Models("https://www.pinterest.com/pin/572801646369409428/", "M4 Competion", "1815 kg", "8.8 l", "96544$"));
-        models.add(new Models("https://www.pinterest.com/pin/73605775150112312/", "Venero", "1490 kg", "15.7 l", "3800000$"));        models.add(new Models("https://www.pinterest.com/pin/572801646369409428/", "M4 Competion", "1815 kg", "8.8 l", "96544$"));
+        models.add(new Models("https://www.pinterest.com/pin/73605775150112312/", "Venero", "1490 kg", "15.7 l", "3800000$"));
+        models.add(new Models("https://www.pinterest.com/pin/73605775150112312/", "Venero", "1490 kg", "15.7 l", "3800000$"));
         models.add(new Models("https://www.pinterest.com/pin/73605775150112312/", "Venero", "1490 kg", "15.7 l", "3800000$"));    }
 }
